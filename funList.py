@@ -19,7 +19,7 @@ def Ordinamento(numList):
     elif numList == sorted(numList, reverse=True):
         return "La lista è ordinata in modo decrescente."
     else:
-        return print("La lista non è ordinata. Te la ordino io", sorted(numList)) 
+        print("La lista non è ordinata. Te la ordino io", sorted(numList)) 
         
 
 def Somma(numList):
